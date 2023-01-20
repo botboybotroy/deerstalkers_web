@@ -35,7 +35,9 @@ jobs:
         # Deletes ALL contents of server-dir, even items in excluded with exclude argument
         #dangerous-clean-slate: # optional
         # An array of glob patterns, these files will not be included in the publish/delete process
-        #exclude: # optional
+        exclude: |
+          **/.replit*
+          **/.nix*
         # How verbose should the information be - minimal, standard, or verbose
         #log-level: # optional
         # strict or loose
