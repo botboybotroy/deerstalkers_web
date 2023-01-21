@@ -38,6 +38,7 @@ jobs:
         exclude: |
           **/.replit*
           **/.nix*
+          /members.deerstalkers.org/htdocs/config.php
         # How verbose should the information be - minimal, standard, or verbose
         #log-level: # optional
         # strict or loose
