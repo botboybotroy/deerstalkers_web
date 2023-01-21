@@ -1,0 +1,4 @@
+SetEnv DATABASE_USER “epiz_33411201”
+SetEnv DB_PASSWD “${{ secrets.API_KEY }}”
+SetEnv DATABASE_NAME “epiz_33411201_login”
+SetEnv DATABASE_HOST “sql202.epizy.com”
